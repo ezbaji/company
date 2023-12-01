@@ -2,3 +2,25 @@ a:hover {
     background-color: yellow;
     border-radius: 10px;
   }
+
+  #img-adapters {
+    max-width: 80%;
+  }
+
+  #img-switch {
+    max-width: 90%;
+  }
+
+  #img-adapters {
+    max-width: 80%;
+  }
+
+  #img-cybersecurity {
+    max-width: 75%;
+  }
+
+  .mbr-section-btn {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    font-size: 0;
+}

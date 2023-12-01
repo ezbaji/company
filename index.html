@@ -4,17 +4,17 @@
         <meta char="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ABC Solutions Inc</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font- awesome.min.css">
         <link rel="stylesheet" href="style.css"/>
     </head>
     
-    
+    <!-- HEADER Section with Company Title and the Navigation Bar-->
     <body class="m-2">
         <header>
-            <div class="mt-0 p-3 bg-primary text-white rounded">
+            <div class="mt-0 p-4 bg-primary text-white rounded">
                 <h1>ABC Solutions Inc</h1>
-                <p>ABC Solutions Inc is the provider of solutions in the Networking and Infrastructure space.</p>
+                <p>Capture, secure and transport data to users and applications from edge to cloud.</p>
             </div>
             <nav class="navbar navbar-expand-lg bg-info">
                 <div class="container-fluid">
@@ -22,6 +22,7 @@
                         <img class="rounded-circle" src="abc-logo.jpeg" alt="Bootstrap" width="50" height="50" rounded>
                     </a>
                     
+                    <!--Navigation Bar-->
                     <div class="container">
                         <ul class="nav justify-content-end">
                             
@@ -40,32 +41,116 @@
                     </div>
                   </div>
            </nav>
-
-
+        </header>
+        <!-- Main Section -->
+        <main>
            <div class="bg-primary">
-            <div class="container">
-                <!-- Hero Section -->
-                <div class="row align-items-center no-gutters">
-                    <div class="col-xl-5 col-lg-6 col-md-12">
-                        <div class="py-5 py-lg-0">
-                            <h1 class="text-white display-4 fw-bold">Welcome to Geeks UI Learning Application
-                            </h1>
-                            <p class="text-white-50 mb-4 lead">
-                                Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.
-                            </p>
-                            <a href="pages/course-filter-list.html" class="btn btn-success">Browse Courses</a>
-                            <a href="pages/sign-in.html" class="btn btn-white">Are You Instructor?</a>
+                <div class="container">
+                
+                    <!-- Hero Section -->
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-5 col-lg-6 col-md-12">
+                            <div class="py-5 py-lg-0">
+                                <h1 class="text-white display-6 fw-bold">Welcome to the world of ABC products and services
+                                </h1>
+                                <p class="text-white-50 mb-4 lead">
+                                    Our products and services ranges from AI Powered automation, Cyber protection services, Network as a service (NaaS), edge to cloud connectivity solutoins.
+                                </p>
+                                <a href="#" class="btn btn-success">Schedule Demo</a>
+                                <a href="#" class="btn btn-warning">Learn More</a>
+                            </div>
+                        </div>
+                        <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
+                            <img src="hero.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
-                        <img src="hero.jpg" alt="" class="img-fluid">
+                </div>
+           </div>      
+
+           <!-- Services Section-->
+          
+           <div class="card-group">
+                <div class="card m-2 border-dark">
+                    <img class="card-img-top mx-auto" src="adapters.jpg" alt="Network adapters" id="img-adapters">
+                    <div class="card-body">
+                        <h5 class="card-title">Network Adapters</h5>
+                        <p class="card-text">These are the giga bit network adapters that transfers data at record speed and are top of the chart reliable product.  </p>
+                    </div>
+                    <div class="card-footer">
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="card m-2 border-dark">
+                    <img class="card-img-top mx-auto" src="switch.webp" alt="Network Switches" id="img-switch">
+                    <div class="card-body">
+                        <h5 class="card-title">Network Switches</h5>
+                        <p class="card-text">These network switches cater to the high speed data transfer requireent for a small orgranzations local area network.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="card m-2 border-dark">
+                    <img class="card-img-top mx-auto" src="cloudnetwork.jpeg" alt="Cloud Network solutions" id="img-cloudnetwork">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloud Solutions</h5>
+                        <p class="card-text">Cloud solutions that will help your organizations to host your high available data on a secure platform and also it is highly scaleable.  The data server is backed up every transaction and can be switched when there is a case of disaster</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="card m-2 border-dark">
+                    <img class="card-img-top mx-auto" src="cybersecurity.webp" alt="Cyber security solutions" id="img-cybersecurity">
+                    <div class="card-body">
+                        <h5 class="card-title">Cybersecurity Solutions</h5>
+                        <p class="card-text">We provide cyber security products like encrypted data networks and also monitor your network for any kind of fradualant activitels like Ddos attacks or any kind of cyber threats.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p><a href="#">Learn More</a></p>
                     </div>
                 </div>
             </div>
-           </div>      
-        </header>
-        <main></main>
-        <footer></footer>
+
+            <!--About Section -->
+            <div class="bg-primary">
+                <div class="container">
+                
+                    <!-- Hero Section -->
+                    <div class="row align-items-center no-gutters">
+                        <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
+                            <img src="aboutus.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12">
+                            <div class="py-5 py-lg-0">
+                                <h1 class="text-white display-6 fw-bold">Our Story</h1>
+                                <p class="text-white-50 mb-4 lead">
+                                    ABC Network Solutions (commonly shortened to ABC, itself being an acronym for "Digital Sky Highway"[6]) is an American television provider and the owner of the direct-broadcast satellite provider Dish, commonly known as Dish Network, and the over-the-top IPTV service, Sling TV. Additionally, Dish offers mobile wireless service, Dish Wireless. On July 1, 2020, ABC acquired prepaid service Boost Mobile and added postpaid service Boost Infinite on December 7, 2022. </p>
+                                
+                                <a href="#" class="btn btn-warning">Learn More</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+           </div>   
+        </main>
+        <!-- Footer -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </footer>
+  
 
     </body>
 
